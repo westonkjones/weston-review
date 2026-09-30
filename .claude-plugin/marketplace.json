@@ -1,0 +1,17 @@
+{
+  "name": "westonkjones",
+  "owner": {
+    "name": "Weston Jones",
+    "url": "https://github.com/westonkjones"
+  },
+  "description": "Weston Jones's Claude Code plugins.",
+  "plugins": [
+    {
+      "name": "weston-review",
+      "source": "./",
+      "description": "Adversarial multi-agent PR review with an approve-before-post triage workflow.",
+      "category": "engineering",
+      "keywords": ["code-review", "pr-review", "adversarial"]
+    }
+  ]
+}
