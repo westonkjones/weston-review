@@ -49,6 +49,14 @@ The review body I post:
 3. Blocking items as a short list linking to their inline comments.
 4. Anything outside the diff.
 
+### When I approve
+
+An approving review body never describes the PR's changes; the author already knows what they changed. It covers:
+
+1. My findings: what I raised, if anything.
+2. What I considered and dropped, and why each one wasn't worth raising.
+3. Why the PR is good to ship: what I checked and what held up.
+
 ## Suppressions
 
 Patterns I have chosen not to see. Each entry gives the pattern, the reason and the date added.

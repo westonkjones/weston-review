@@ -17,7 +17,7 @@ Write `<work>/review.json`:
 }
 ```
 
-- **Omit `event`.** Leaving it out is what makes GitHub create the review as `PENDING`, visible only to the user until they submit it. Never set `event` to `APPROVE`, `REQUEST_CHANGES` or `COMMENT`. The user chooses the verdict in GitHub.
+- **Omit `event`.** Leaving it out is what makes GitHub create the review as `PENDING`, visible only to the user until they submit it. Don't set `event` to `APPROVE`, `REQUEST_CHANGES` or `COMMENT`; the user chooses the verdict in GitHub. The one exception: when the user explicitly asks you to approve, set `event` to `APPROVE`, and expect `state` to be `APPROVED`.
 - **Anchor comments inside diff hunks.** Use `side: RIGHT` for added or context lines and `LEFT` for deleted lines. A multi-line comment uses `start_line` for its first line and `line` for its last. Any approved comment whose lines fall outside the diff goes into the body instead, under `### Outside the diff`, with a `path:line` reference.
 - **Suggestion blocks** replace exactly `start_line..line`, so the comment's range must match the finding's `line_start..line_end`.
 

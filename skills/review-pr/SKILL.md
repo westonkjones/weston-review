@@ -129,13 +129,13 @@ Walk through the findings **one at a time**. For each one:
 
 The user may say "keep the rest" or "drop the rest" at any point.
 
-Then show the review summary body you would post, built from the profile's summary format, and get it approved the same way.
+Then show the review summary body you would post, built from the profile's summary format, and get it approved the same way. If the user intends to approve, use the profile's approval format instead. Draw on the findings the user dropped and the lenses' `declined` lists, using each one's own trigger and reasoning to say why it was dropped.
 
 Done when: every finding has a decision, and the user has approved the final comment set and the summary.
 
 ## 8. Post as a pending review
 
-Only if at least one comment or the summary was kept, read `<skill-dir>/references/posting.md` and post the approved set as a **pending** review. Then tell the user it is waiting for them to submit in GitHub, and give them the PR URL.
+Only if at least one comment or the summary was kept, read `<skill-dir>/references/posting.md` and post the approved set as a **pending** review. Then tell the user it is waiting for them to submit in GitHub, and give them the PR URL. If the user explicitly asks you to approve, submit with `event: APPROVE` instead and give them the review URL.
 
 If the user asks for terminal output only, skip this step.
 
