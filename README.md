@@ -5,9 +5,11 @@ An adversarial, multi-agent PR review plugin for [Claude Code](https://claude.co
 ## Install
 
 ```
-claude plugin marketplace add westonkjones/weston-review
-claude plugin install weston-review@westonkjones
+claude plugin marketplace add westonkjones/wes-skills
+claude plugin install weston-review@wes-skills
 ```
+
+It's listed in the [wes-skills](https://github.com/westonkjones/wes-skills) marketplace.
 
 ## Use
 
@@ -85,7 +87,7 @@ Copy the default profile to one of the first two locations and edit it. Suppress
 ## Layout
 
 ```
-.claude-plugin/        plugin.json, marketplace.json
+.claude-plugin/        plugin.json
 agents/                reviewer.md (one lens), verifier.md (refutes one finding)
 skills/review-pr/
   SKILL.md             the orchestration steps
