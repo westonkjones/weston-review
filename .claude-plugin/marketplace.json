@@ -12,6 +12,13 @@
       "description": "Adversarial multi-agent PR review with an approve-before-post triage workflow.",
       "category": "engineering",
       "keywords": ["code-review", "pr-review", "adversarial"]
+    },
+    {
+      "name": "validation-plan",
+      "source": { "source": "github", "repo": "westonkjones/validation-plan" },
+      "description": "Manual validation plans for finished changes: local setup, happy-path steps grounded in the code, and Playwright videos.",
+      "category": "engineering",
+      "keywords": ["validation", "qa", "manual-testing", "playwright"]
     }
   ]
 }
