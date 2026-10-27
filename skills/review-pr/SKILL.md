@@ -1,8 +1,7 @@
 ---
 name: review-pr
-description: Adversarial multi-agent review of a teammate's PR, verified finding by finding, triaged with you before anything is posted.
+description: Adversarial multi-agent review of a teammate's PR, verified finding by finding, triaged with you before anything is posted. Use when the user asks to review someone else's PR, including "review this PR as me".
 argument-hint: "<pr-number|pr-url|branch> [--depth quick|standard|deep] [--lenses a,b,c]"
-disable-model-invocation: true
 allowed-tools: Bash(gh:*) Bash(git:*) Bash(jira:*) Bash(mkdir:*) Bash(cat:*) Bash(jq:*) Read Grep Glob Write Agent AskUserQuestion
 ---
 

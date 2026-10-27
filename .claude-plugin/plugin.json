@@ -1,6 +1,6 @@
 {
   "name": "weston-review",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Weston Jones's adversarial PR review: parallel focused reviewers, an independent verifier per finding, and a triage pass where you approve every comment before it reaches the PR.",
   "author": {
     "name": "Weston Jones",
